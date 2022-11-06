@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+   app-service:
+     init: true
+     container_name: app-service
+     build:
+       context: .
+       dockerfile: docker/app-image/Dockerfile
+     ports:
+       - '4000:8080'
