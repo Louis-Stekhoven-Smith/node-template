@@ -43,7 +43,7 @@ npm install
 You are good to go. 
 
 Example usage
-http://localhost:4000
+http://localhost:4000/health
 
 # Testing
 
